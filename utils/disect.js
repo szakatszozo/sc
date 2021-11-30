@@ -1,0 +1,1 @@
+export const parsePidFromLsof = output => /[^node ]+/.exec(output)[0]

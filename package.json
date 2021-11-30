@@ -2,18 +2,24 @@
   "name": "sc",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -- -p 3333",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/lab": "^5.0.0-alpha.55",
+    "@mui/material": "^5.1.1",
     "next": "12.0.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "eslint": "7",
-    "eslint-config-next": "12.0.3"
+    "eslint-config-next": "12.0.3",
+    "query-string": "7.0.1"
   }
 }
