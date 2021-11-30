@@ -11,3 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - Under `/config` create new config
 - Include it in `/config/index.js` and `NEXT_PUBLIC_APPS` list
+
+### Install and startup
+
+`yarn && yarn dev`
